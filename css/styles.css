@@ -8,8 +8,20 @@ body{
     height: 100vh;
     display: grid;
     place-items: center center;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins',sans-serif; 
 }
+
+.heading {
+    padding: 60px;
+    text-align: center;
+    background: #1c1b29;
+    color: white;
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+
+
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(1px,1fr));
