@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ebebeb;
+    background-color: #1c1b29;
     height: 100vh;
     display: grid;
     place-items: center center;
@@ -46,6 +46,11 @@ body{
     border: 25px solid #1c1b29;
   }
 
+.links li {
+    font-size: 150%;
+    display: inline-block;
+}
+
 .projects {
     padding: 60px;
     width: 175vh;
@@ -68,17 +73,6 @@ body{
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
 
-.cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(1px,44fr));
-    padding: 20px;
-    grid-gap: 10px;
-}
-.card{
-    background-color: #1c1b29;
-    border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.18);
-}
 
 .container{
     position: relative;
