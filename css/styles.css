@@ -7,8 +7,8 @@
 .background{
     background-color: #1c1b29;
     background-image: url("../image/lowpoly.png ");  
-    height: 275vw;
-    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: auto;
     display: grid;
     place-items: center center;
     font-family: 'Poppins',sans-serif; 
