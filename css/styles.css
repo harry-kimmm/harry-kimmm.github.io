@@ -5,45 +5,45 @@
 }
 body{
     background-color: #1c1b29;
-    height: 100vh;
+    height: 100vw;
     display: grid;
     place-items: center center;
     font-family: 'Poppins',sans-serif; 
 }
 
 .top {
-    padding: 60px;
-    width: 175vh;
+    padding: 3vw;
+    width: 60vw;
     text-align: center;
     background: #ffffff;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
-    margin: 25px 0 25px 0;    
+    margin: 2vw 0 1vw 0;    
 }
 
 .heading {
-    width: 100vh;
+    width: 50vw;
     margin: auto;
-    padding: 60px;
+    padding: 1vw;
     text-align: center;
     background: #1c1b29;
     color: white;
-    font-size: 35px;
+    font-size: 1vw;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
 
 .profile-picture {
-    width: 350px;
-    height: 350px;
+    width: 20vw;
+    height: 20vw;
     border-radius: 100%;
     overflow: hidden;
     background-color: #1c1b29;
     display:inline-block;
     vertical-align:middle;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
-    margin: 10px 0 15px 0;
-    border: 25px solid #1c1b29;
+    margin: 1vw 0 1vw 0;
+    border: 1vw solid #1c1b29;
   }
 
 .links li {
@@ -52,8 +52,8 @@ body{
 }
 
 .projects {
-    padding: 60px;
-    width: 175vh;
+    padding: 1vw;
+    width: 80vw;
     text-align: center;
     background: #ffffff;
     border-radius: 20px;
@@ -61,22 +61,10 @@ body{
     margin: 25px 0 25px 0;    
 }
 
-.heading2 {
-    width: 75vh;
-    margin: auto;
-    padding: 60px;
-    text-align: center;
-    background: #1c1b29;
-    color: white;
-    font-size: 35px;
-    border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.18);
-}
-
-
 .container{
     position: relative;
 }
+
 img{
     width: 100%;
     display: block;
