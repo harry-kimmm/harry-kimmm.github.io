@@ -37,8 +37,8 @@
 }
 
 .profile-picture {
-    width: 40vh;
-    height: 40vh;
+    width: 25vw;
+    height: 25vw;
     border-radius: 100%;
     overflow: hidden;
     background-color: #1c1b29;
