@@ -3,9 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+.background{
     background-color: #1c1b29;
-    height: 100vw;
+    background-image: url("../image/lowpoly.png ");  
+    height: 275vw;
+    width: 100vw;
     display: grid;
     place-items: center center;
     font-family: 'Poppins',sans-serif; 
@@ -47,7 +50,7 @@ body{
   }
 
 .links li {
-    font-size: 150%;
+    font-size: 5vh;
     display: inline-block;
 }
 
