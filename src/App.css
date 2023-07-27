@@ -1,0 +1,27 @@
+#root {
+  margin: auto;
+  text-align: center;
+
+}
+
+
+.projects {
+  background-color: rgb(35, 35, 39);
+  padding-bottom: 1%;
+}
+
+.academics {
+  padding-bottom: 30%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgb(35, 35, 39);
+  color: #fff;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 99.4%;
+  position: absolute;
+}
