@@ -21,7 +21,7 @@ function App() {
         <ButtonGroup size="large" aria-label="large button group">
           <IconButton href="https://github.com/harry-kimmm" target="_blank"><GitHubIcon style={{ color: 'white' }} /></IconButton>
           <IconButton href="https://www.linkedin.com/in/harrykimm/" target="_blank"><LinkedInIcon style={{ color: 'white' }} /></IconButton>
-          <IconButton href="/harry-kimmm.github.io/src/images/Harry_Kim.pdf" target="_blank"><FeedIcon style={{ color: 'white' }} /></IconButton>
+          <IconButton href="https://drive.google.com/file/d/1cxJCYwsMQHkgriMthFzoNsEy9gEMaWi9/view?usp=sharing" target="_blank"><FeedIcon style={{ color: 'white' }} /></IconButton>
         </ButtonGroup >
       </ScrollAnimation>
 
@@ -40,7 +40,7 @@ function App() {
                 <Card sx={{ maxWidth: 600 }}>
                   <CardMedia
                     sx={{ height: 250 }}
-                    image="src/images/a-plus-i-img.png"
+                    image="https://i.imgur.com/ESXXzCt.png"
                     title="A+I"
                   />
                   <CardContent>
@@ -62,7 +62,7 @@ function App() {
                 <Card sx={{ maxWidth: 600 }}>
                   <CardMedia
                     sx={{ height: 250 }}
-                    image="src/images/vendingmachine-img.png"
+                    image="https://i.imgur.com/RLYhAJY.png"
                     title="Vending Machine"
                   />
                   <CardContent>
@@ -84,7 +84,7 @@ function App() {
                 <Card sx={{ maxWidth: 600 }}>
                   <CardMedia
                     sx={{ height: 250 }}
-                    image="src/images/eunited-img.png"
+                    image="https://i.imgur.com/eJ94VYk.png"
                     title="Engineering United"
                   />
                   <CardContent>
@@ -106,7 +106,7 @@ function App() {
                 <Card sx={{ maxWidth: 600 }}>
                   <CardMedia
                     sx={{ height: 250 }}
-                    image="src/images/personal-portfolio-img.png"
+                    image="https://i.imgur.com/deHmgpd.png"
                     title="Personal Website"
                   />
                   <CardContent>
