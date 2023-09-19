@@ -21,7 +21,7 @@ function App() {
         <ButtonGroup size="large" aria-label="large button group">
           <IconButton href="https://github.com/harry-kimmm" target="_blank"><GitHubIcon style={{ color: 'white' }} /></IconButton>
           <IconButton href="https://www.linkedin.com/in/harrykimm/" target="_blank"><LinkedInIcon style={{ color: 'white' }} /></IconButton>
-          <IconButton href="https://drive.google.com/file/d/1cxJCYwsMQHkgriMthFzoNsEy9gEMaWi9/view?usp=sharing" target="_blank"><FeedIcon style={{ color: 'white' }} /></IconButton>
+          <IconButton href="https://drive.google.com/file/d/1guM8E0YCGyRP6GxxS6Gteyk_cZ4sj5nl/view?usp=sharing" target="_blank"><FeedIcon style={{ color: 'white' }} /></IconButton>
         </ButtonGroup >
       </ScrollAnimation>
 
@@ -62,6 +62,28 @@ function App() {
                 <Card sx={{ maxWidth: 600 }}>
                   <CardMedia
                     sx={{ height: 250 }}
+                    image="https://i.imgur.com/tSzJDXR.png"
+                    title="Ninja Platformer"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                      Ninja Platformer
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      2D Tile-based Platformer game with a fully animated playable ninja character. Developed entirely in Python using Pygame
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button href="https://github.com/harry-kimmm/ninja_platformer" target="_blank" size="small">Github</Button>
+                  </CardActions>
+                </Card>
+              </ScrollAnimation>
+            </Grid>
+            <Grid item xs="auto">
+              <ScrollAnimation animateIn="fadeInRight" animateOnce="true" duration="0.5">
+                <Card sx={{ maxWidth: 600 }}>
+                  <CardMedia
+                    sx={{ height: 250 }}
                     image="https://i.imgur.com/RLYhAJY.png"
                     title="Vending Machine"
                   />
@@ -92,7 +114,7 @@ function App() {
                       Engineering United Website
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Website built using Three.js for 3D graphics made for my club which provides details of the club and allows viewers to sign up
+                      Website built using Three.js for 3D graphics made for my club which provides details of the club and allows viewers to sign up.
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -140,6 +162,23 @@ function App() {
               <Card sx={{ maxWidth: 450, minHeight: 230 }}>
                 <CardContent>
                   <Typography variant="h5" component="div">
+                    CSCI 133
+                  </Typography>
+                  <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                    Fullerton College
+                  </Typography>
+                  <Typography variant="body3">
+                    Data Structures in C++. Data structures examined are arrays, linked lists, stacks, queues, trees, tables, and graphs. Algorithm topics include hashing, sorting, heaps, searches and algorithm efficiency using Big-O notation.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </ScrollAnimation>
+          </Grid>
+          <Grid item xs="auto">
+            <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="0.5">
+              <Card sx={{ maxWidth: 450, minHeight: 230 }}>
+                <CardContent>
+                  <Typography variant="h5" component="div">
                     Math 171
                   </Typography>
                   <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -152,6 +191,7 @@ function App() {
               </Card>
             </ScrollAnimation>
           </Grid>
+
           <Grid item xs="auto">
             <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="0.5">
               <Card sx={{ maxWidth: 450, minHeight: 230 }}>
@@ -174,13 +214,47 @@ function App() {
               <Card sx={{ maxWidth: 450, minHeight: 230 }}>
                 <CardContent>
                   <Typography variant="h5" component="div">
+                    Web Development Class
+                  </Typography>
+                  <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                    Bitwise Industries
+                  </Typography>
+                  <Typography variant="body3">
+                    8-week pre-apprenticeship hands-on project-based class. Class went over fundamentals of HTML and CSS to build web pages.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </ScrollAnimation>
+          </Grid>
+          <Grid item xs="auto">
+            <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="0.5">
+              <Card sx={{ maxWidth: 450, minHeight: 230 }}>
+                <CardContent>
+                  <Typography variant="h5" component="div">
+                    Python Professional Certificate
+                  </Typography>
+                  <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                    Coursera
+                  </Typography>
+                  <Typography variant="body3">
+                    Troubleshooting and Debuggin Techniques, Introduction to Git and GitHub, Using Python to Interact with the Operating System, Configuration Management and the Cloud, Crash Course on Python, Automating Real-World Tasks with Python
+                  </Typography>
+                </CardContent>
+              </Card>
+            </ScrollAnimation>
+          </Grid>
+          <Grid item xs="auto">
+            <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="0.5">
+              <Card sx={{ maxWidth: 450, minHeight: 230 }}>
+                <CardContent>
+                  <Typography variant="h5" component="div">
                     AP Courses
                   </Typography>
                   <Typography sx={{ mb: 1.5 }} color="text.secondary">
                     Cypress High School
                   </Typography>
                   <Typography variant="body3">
-                    AP Computer Science A, AP Computer Science Principles, AP Physics C: Mechanics, AP English Language and Composition, AP United States History, AP European History.
+                    Computer Science A, Computer Science Principles, Calculus BC, Statistics, Physics C: Mechanics, English Language and Composition, English Literature and Composition, US Government and Politics, United States History, European History
                   </Typography>
                 </CardContent>
               </Card>
