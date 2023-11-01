@@ -162,23 +162,6 @@ function App() {
               <Card sx={{ maxWidth: 450, minHeight: 230 }}>
                 <CardContent>
                   <Typography variant="h5" component="div">
-                    CSCI 133
-                  </Typography>
-                  <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                    Fullerton College
-                  </Typography>
-                  <Typography variant="body3">
-                    Data Structures in C++. Data structures examined are arrays, linked lists, stacks, queues, trees, tables, and graphs. Algorithm topics include hashing, sorting, heaps, searches and algorithm efficiency using Big-O notation.
-                  </Typography>
-                </CardContent>
-              </Card>
-            </ScrollAnimation>
-          </Grid>
-          <Grid item xs="auto">
-            <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="0.5">
-              <Card sx={{ maxWidth: 450, minHeight: 230 }}>
-                <CardContent>
-                  <Typography variant="h5" component="div">
                     Math 171
                   </Typography>
                   <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -237,7 +220,7 @@ function App() {
                     Coursera
                   </Typography>
                   <Typography variant="body3">
-                    Troubleshooting and Debuggin Techniques, Introduction to Git and GitHub, Using Python to Interact with the Operating System, Configuration Management and the Cloud, Crash Course on Python, Automating Real-World Tasks with Python
+                    Troubleshooting and Debugging Techniques, Introduction to Git and GitHub, Using Python to Interact with the Operating System, Configuration Management and the Cloud, Crash Course on Python, Automating Real-World Tasks with Python
                   </Typography>
                 </CardContent>
               </Card>
