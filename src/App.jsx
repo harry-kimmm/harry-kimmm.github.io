@@ -197,6 +197,23 @@ function App() {
               <Card sx={{ maxWidth: 450, minHeight: 230 }}>
                 <CardContent>
                   <Typography variant="h5" component="div">
+                    CS50
+                  </Typography>
+                  <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                    Harvard Online
+                  </Typography>
+                  <Typography variant="body3">
+                    Introduction to Computer Science. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. 
+                  </Typography>
+                </CardContent>
+              </Card>
+            </ScrollAnimation>
+          </Grid>
+          <Grid item xs="auto">
+            <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="0.5">
+              <Card sx={{ maxWidth: 450, minHeight: 230 }}>
+                <CardContent>
+                  <Typography variant="h5" component="div">
                     Web Development Class
                   </Typography>
                   <Typography sx={{ mb: 1.5 }} color="text.secondary">
