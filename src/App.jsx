@@ -21,7 +21,7 @@ function App() {
         <ButtonGroup size="large" aria-label="large button group">
           <IconButton href="https://github.com/harry-kimmm" target="_blank"><GitHubIcon style={{ color: 'white' }} /></IconButton>
           <IconButton href="https://www.linkedin.com/in/harrykimm/" target="_blank"><LinkedInIcon style={{ color: 'white' }} /></IconButton>
-          <IconButton href="https://drive.google.com/file/d/1guM8E0YCGyRP6GxxS6Gteyk_cZ4sj5nl/view?usp=sharing" target="_blank"><FeedIcon style={{ color: 'white' }} /></IconButton>
+          <IconButton href="https://drive.google.com/file/d/1nSleKzKCtVI8u9bewquo940_vOzNdKFc/view?usp=sharing" target="_blank"><FeedIcon style={{ color: 'white' }} /></IconButton>
         </ButtonGroup >
       </ScrollAnimation>
 
